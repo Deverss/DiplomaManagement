@@ -1,0 +1,1 @@
+<NuxtLink class="" to=""></NuxtLink>
