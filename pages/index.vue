@@ -7,7 +7,7 @@
   <div class="flex">
     <div class="pt-24 pr-8 w-1/2">
       <h1 class="text-6xl font-bold font-display">Securely Manage and Verify Your Certificates with NFT</h1>
-      <p class="pt-8 max-w-md text-xl leading-relaxed text-gray-500">Sign up now and start managing your certificates securely and transparently with our NFT-based platform</p>
+      <p class="pt-8 max-w-md text-base leading-relaxed text-gray-500">Start managing your certificates securely and transparently with our NFT-based platform</p>
       <div class="flex items-center pt-12 space-x-6">
         <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-orange-600 rounded-full">Sign up</button>
         <button class="flex justify-start items-center py-4 px-8 font-bold tracking-wide leading-7 rounded-full text-gray-500 border-2">Learn More</button>
@@ -19,6 +19,85 @@
   </div>
 </div>
 <!-- HeroSection -->
+<!-- FeatureSection -->
+<div class="" id="">
+  <div class="w-full max-w-screen-xl mx-auto my-0 px-20 py-0" id="feature-center">
+    <div class="max-w-3xl mx-auto my-20 text-center" id="head">
+      <p class="text-xs font-bold text-gray-500" id="">EMPOWERING CERTIFICATES</p>
+      <h2 class="text-5xl leading-relaxed tracking-tight mb-5 font-bold min-w-375">Building a secure for certificates</h2>
+    </div>
+    <div class="flex flex-wrap text-left " id="feature-column">
+      <div class="w-full md:w-1/3 p-3 py-20 px-8">
+        <h4 class="mb-4 font-semibold text-base" id="">Create certificate</h4>
+        <p class="text-sm text-gray-500" id="">Each certificate is unique and verifiable on the blockchain, ensuring the authenticity of student achievements.</p>
+      </div>
+      <div class="w-full md:w-1/3 p-3 border-r border-l py-20 px-8">
+        <h4 class="mb-4 font-semibold text-base">Manage Certificate</h4>
+        <p class="text-sm text-gray-500" id="">Easily manage all student certificates in one place. Complete control and visibility over the certifications</p>
+      </div>
+      <div class="w-full md:w-1/3 p-3 py-20 px-8">
+        <h4 class="mb-4 font-semibold text-base">View certificate</h4>
+        <p class="text-sm text-gray-500" id="">Share your achievements with others and showcase your accomplishments</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FeatureSection -->
+<!-- Benefit section -->
+<div class="">
+  <div class="relative bg-gray-100 w-full mx-0 my-auto px-20 py-20" id="benefit-section">
+    <div class="" id="benefit-image">
+      
+    </div>
+    <div class="relative z-10 max-w-lg ml-auto p-12 bg-white rounded-3xl" id="benefit-wrapper">
+      <h2 class="mb-12 text-5xl font-bold">The Benefits of Out Platform</h2>
+      <p class="mb-12 text-gray-500">By choosing our platform, students can enjoy a number of benefits including</p>
+      <div class="" id="benefit-list">
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
+          <div class="" id="benefit-icon1"></div>
+          <div class="grow" id="benefit-details">
+            <h5 class="mb-2 font-bold">Security</h5>
+            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
+          </div>
+        </div>
+
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
+          <div class="" id="benefit-icon1"></div>
+          <div class="grow" id="benefit-details">
+            <h5 class="mb-2 font-bold">Security</h5>
+            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
+          </div>
+        </div>
+
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
+          <div class="" id="benefit-icon1"></div>
+          <div class="grow" id="benefit-details">
+            <h5 class="mb-2 font-bold">Security</h5>
+            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
+          </div>
+        </div>
+
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
+          <div class="" id="benefit-icon1"></div>
+          <div class="grow" id="benefit-details">
+            <h5 class="mb-2 font-bold">Security</h5>
+            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
+          </div>
+        </div>
+
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
+          <div class="" id="benefit-icon1"></div>
+          <div class="grow" id="benefit-details">
+            <h5 class="mb-2 font-bold">Security</h5>
+            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Benefit section -->
+
 <Footer />
 </div>
 </template>

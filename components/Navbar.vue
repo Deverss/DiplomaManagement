@@ -4,9 +4,8 @@
         <div class="w-1/3 flex items-center">
           <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_dark_color_272x92dp.png" class="h-8 mr-4" alt="Logo">
         </div>
-        <div class="w-/3 flex items-center">
+        <div class="w-2/3 flex items-center">
           <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/">Home</nuxt-link>
-          
           
           <div class="relative">
             <button class="text-neutral-500 text-lg font-medium mr-4" @mouseover="toggleDropdown" @mouseleave="toggleDropdown" @click="toggleDropdown" to="/certificates">Certificates</button>
@@ -28,8 +27,8 @@
           <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/privacy-policy">Privacy Policy</nuxt-link>
         </div>
         <div class="w-1/3 flex items-center justify-end">
-          <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/login">Login</nuxt-link>
-          <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/sign-up">Sign Up</nuxt-link>
+          <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/sign-up">Login</nuxt-link>
+          <nuxt-link class="flex justify-start items-center py-4 px-8 font-bold tracking-wide leading-7 rounded-full text-gray-500 border-2" to="/sign-up">Sign Up</nuxt-link>
         </div>
       </div>
     </nav>
