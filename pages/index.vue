@@ -20,7 +20,7 @@
 </div>
 <!-- HeroSection -->
 <!-- FeatureSection -->
-<div class="" id="">
+<div class="py-24" id="">
   <div class="w-full max-w-screen-xl mx-auto my-0 px-20 py-0" id="feature-center">
     <div class="max-w-3xl mx-auto my-20 text-center" id="head">
       <p class="text-xs font-bold text-gray-500" id="">EMPOWERING CERTIFICATES</p>
@@ -45,53 +45,74 @@
 <!-- FeatureSection -->
 <!-- Benefit section -->
 <div class="">
-  <div class="relative bg-gray-100 w-full mx-0 my-auto px-20 py-20" id="benefit-section">
+  <div class="relative  bg-gray-100 w-full mx-0 my-auto px-20 py-20" id="benefit-section">
     <div class="" id="benefit-image">
       
     </div>
-    <div class="relative z-10 max-w-lg ml-auto p-12 bg-white rounded-3xl" id="benefit-wrapper">
+    <div class="relative z-10 max-w-lg ml-auto p-12 bg-white rounded-3xl shadow-md" id="benefit-wrapper">
       <h2 class="mb-12 text-5xl font-bold">The Benefits of Out Platform</h2>
       <p class="mb-12 text-gray-500">By choosing our platform, students can enjoy a number of benefits including</p>
-      <div class="" id="benefit-list">
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
-          <div class="" id="benefit-icon1"></div>
+      <div class="mb-2 " id="benefit-list">
+
+      <!-- Benefit 1 -->
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item1">
+          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon1">
+            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
+          </div>
           <div class="grow" id="benefit-details">
             <h5 class="mb-2 font-bold">Security</h5>
             <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
           </div>
         </div>
 
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
-          <div class="" id="benefit-icon1"></div>
+        <!-- Benefit 2 -->
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item2">
+          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon2">
+            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
+          </div>
+          <div class="grow" id="benefit-details">
+            <h5 class="mb-2 font-bold">Security</h5>
+            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
+          </div>
+        </div>
+        
+        <!-- Benefit 3 -->
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item3">
+          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon3">
+            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
+          </div>
+          <div class="grow" id="benefit-details">
+            <h5 class="mb-2 font-bold">Security</h5>
+            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
+          </div>
+        </div>
+        
+        <!-- Benefit 4 -->
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item4">
+          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon4">
+            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
+          </div>
           <div class="grow" id="benefit-details">
             <h5 class="mb-2 font-bold">Security</h5>
             <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
           </div>
         </div>
 
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
-          <div class="" id="benefit-icon1"></div>
+        <!-- Benefit 5 -->
+        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item5">
+          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon5">
+            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
+          </div>
           <div class="grow" id="benefit-details">
             <h5 class="mb-2 font-bold">Security</h5>
             <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
           </div>
         </div>
 
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
-          <div class="" id="benefit-icon1"></div>
-          <div class="grow" id="benefit-details">
-            <h5 class="mb-2 font-bold">Security</h5>
-            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
-          </div>
-        </div>
+        
 
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border" id="benefit-item1">
-          <div class="" id="benefit-icon1"></div>
-          <div class="grow" id="benefit-details">
-            <h5 class="mb-2 font-bold">Security</h5>
-            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
-          </div>
-        </div>
+
+
       </div>
     </div>
   </div>
