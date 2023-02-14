@@ -55,64 +55,16 @@
       <div class="mb-2 " id="benefit-list">
 
       <!-- Benefit 1 -->
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item1">
-          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon1">
-            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
+      
+        <div v-for="list in benefitlist" key="list.id" class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item">
+          <div  class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon">
+            <img v-bind:src=" list.img " alt="" />
           </div>
           <div class="grow" id="benefit-details">
-            <h5 class="mb-2 font-bold">Security</h5>
-            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
+            <h5 class="mb-2 font-bold">{{ list.title }}</h5>
+            <p class="max-w-xs text-base text-gray-500">{{ list.text }}</p>
           </div>
         </div>
-
-        <!-- Benefit 2 -->
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item2">
-          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon2">
-            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
-          </div>
-          <div class="grow" id="benefit-details">
-            <h5 class="mb-2 font-bold">Security</h5>
-            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
-          </div>
-        </div>
-        
-        <!-- Benefit 3 -->
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item3">
-          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon3">
-            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
-          </div>
-          <div class="grow" id="benefit-details">
-            <h5 class="mb-2 font-bold">Security</h5>
-            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
-          </div>
-        </div>
-        
-        <!-- Benefit 4 -->
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item4">
-          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon4">
-            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
-          </div>
-          <div class="grow" id="benefit-details">
-            <h5 class="mb-2 font-bold">Security</h5>
-            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
-          </div>
-        </div>
-
-        <!-- Benefit 5 -->
-        <div class="flex p-6 rounded-xl cursor-pointer hover:border mb-2" id="benefit-item5">
-          <div class="flex justify-center shrink-0 w-10 h-10 mr-6" id="benefit-icon5">
-            <img src="https://www.svgrepo.com/show/74601/security.svg" alt="" />
-          </div>
-          <div class="grow" id="benefit-details">
-            <h5 class="mb-2 font-bold">Security</h5>
-            <p class="max-w-xs text-base text-gray-500">Each certificate is stored on the blockchain, making it tamper-proof and secure.</p>
-          </div>
-        </div>
-
-        
-
-
-
       </div>
     </div>
   </div>
@@ -125,7 +77,24 @@
 
 <script>
 
+
+
 export default {
-  name: 'IndexPage',
+  data() {
+    return{
+      benefitlist:[
+        {id:1, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
+        {id:2, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
+        {id:3, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
+        {id:4, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
+        {id:5, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
+        
+      ]
+        
+    }
 }
+}
+
+
+
 </script>

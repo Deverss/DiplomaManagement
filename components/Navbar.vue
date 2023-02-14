@@ -4,27 +4,23 @@
         <div class="w-1/3 flex items-center">
           <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_dark_color_272x92dp.png" class="h-8 mr-4" alt="Logo">
         </div>
-        <div class="w-2/3 flex items-center">
-          <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/">Home</nuxt-link>
+        <div class="w-1/3 flex items-center ">
           
-          <div class="relative">
-            <button class="text-neutral-500 text-lg font-medium mr-4" @mouseover="toggleDropdown" @mouseleave="toggleDropdown" @click="toggleDropdown" to="/certificates">Certificates</button>
-            <div class="absolute right-0 py-2 w-48 bg-gray-800 rounded-md shadow-md" v-if="showDropdown">
-              <nuxt-link class="block px-4 py-2 text-gray-100 hover:bg-gray-900" to="/schools/mint-nfts">View / Share</nuxt-link>
-              <nuxt-link class="block px-4 py-2 text-gray-100 hover:bg-gray-900" to="/schools/verify-authenticity">Transfer Ownership</nuxt-link>
+          
+          <div class="flex relative">
+            <div class="text-gray-500 ml-5" id="navlist" v-for="menu in navlink" key="menu.name">
+              <nuxt-link class="" to="{ path: menu.link, query: { itemId: menu.id } }" >
+                {{ menu.name }}
+          
+                <div class="bg-red-500 p-10" v-if="menu.children" v-for="chilrenmenu in menu.children" key="chilerenmenu.text">{{ chilrenmenu.text }}</div>
+                
+              </nuxt-link>
             </div>
+
+    
           </div>
 
-          <div class="relative">
-            <button class="text-neutral-500 font-medium mr-4" @mouseover="toggleDropdown" @mouseleave="toggleDropdown" @click="toggleDropdown">Schools</button>
-            <div class="absolute right-0 py-2 w-48 bg-gray-800 rounded-md shadow-md" v-if="showDropdown">
-              <nuxt-link class="block px-4 py-2 text-neutral-500 hover:bg-gray-900" to="/schools/mint-nfts">Mint NFTs</nuxt-link>
-              <nuxt-link class="block px-4 py-2 text-neutral-500 hover:bg-gray-900" to="/schools/verify-authenticity">Verify Authenticity</nuxt-link>
-            </div>
-          </div>
-          <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/how-it-works">How it Works</nuxt-link>
-          <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/contact">Contact</nuxt-link>
-          <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/privacy-policy">Privacy Policy</nuxt-link>
+          
         </div>
         <div class="w-1/3 flex items-center justify-end">
           <nuxt-link class="text-neutral-500 text-lg font-medium mr-4" to="/sign-up">Login</nuxt-link>
@@ -35,18 +31,24 @@
   </template>
   
   <script>
-  export default {
-    data() {
-      return {
-        showDropdown: false
+    export default {
+      data() {
+        return {
+          navlink:[
+          {id:1, name: 'Home',link:"/Home"},
+          {id:2, name: "Certificate", link:"/Home", children:[
+          {text:"View/Share"},{text:"Tranfer Ownership"}]},
+          {id:3, name: "School",link:"/Home"},
+          {id:4, name: "How it works",link:"/Home"},
+          {id:5, name: "Contact",link:"/Home"},
+          
+
+        ],
+          
+
+          
+        }
       }
-    },
-    methods: {
-      toggleDropdown() {
-        this.showDropdown = !this.showDropdown
-      }
-      
     }
-  }
   </script>
   
