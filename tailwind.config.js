@@ -8,9 +8,12 @@ module.exports = {
         "./node_modules/tw-elements/dist/js/**/*.js",
     ],
     theme: {
-        extend: {},
-    },
-    plugins: [
-        require('tw-elements/dist/plugin')
-    ],
+        extend: {
+            fontFamily: { 'poppins': ['Poppins'], },
+        },
+        plugins: [
+            require('tw-elements/dist/plugin')
+        ],
+
+    }
 }

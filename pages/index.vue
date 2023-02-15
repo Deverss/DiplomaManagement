@@ -6,11 +6,11 @@
 <div class="px-6 mx-auto max-w-screen-xl">
   <div class="flex">
     <div class="pt-24 pr-8 w-1/2">
-      <h1 class="text-6xl font-bold font-display">Securely Manage and Verify Your Certificates with NFT</h1>
-      <p class="pt-8 max-w-md text-base leading-relaxed text-gray-500">Start managing your certificates securely and transparently with our NFT-based platform</p>
+      <h1 class="text-6xl font-bold font-display">Your Diplomas, Always Accessible</h1>
+      <p class=" pt-8 max-w-md text-base leading-relaxed text-gray-500">Our platform provides a secure and convenient way to store and access all of your university diplomas in one place.</p>
       <div class="flex items-center pt-12 space-x-6">
-        <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-orange-600 rounded-full">Sign up</button>
-        <button class="flex justify-start items-center py-4 px-8 font-bold tracking-wide leading-7 rounded-full text-gray-500 border-2">Learn More</button>
+        <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-orange-600 rounded-full">Explore</button>
+        <button class="flex justify-start items-center py-4 px-8 font-bold tracking-wide leading-7 rounded-full text-gray-500 border-2">Get started</button>
       </div>
     </div>
     <div class="w-1/2">
@@ -28,24 +28,24 @@
     </div>
     <div class="flex flex-wrap text-left " id="feature-column">
       <div class="w-full md:w-1/3 p-3 py-20 px-8">
-        <h4 class="mb-4 font-semibold text-base" id="">Create certificate</h4>
-        <p class="text-sm text-gray-500" id="">Each certificate is unique and verifiable on the blockchain, ensuring the authenticity of student achievements.</p>
+        <h4 class="mb-4 font-semibold text-base" id="">ICON LOCK Secure Storage</h4>
+        <p class="text-sm text-gray-500" id="">Using NFT technology to store and manage your diplomas securely, giving you complete control over your documents.</p>
       </div>
       <div class="w-full md:w-1/3 p-3 border-r border-l py-20 px-8">
-        <h4 class="mb-4 font-semibold text-base">Manage Certificate</h4>
-        <p class="text-sm text-gray-500" id="">Easily manage all student certificates in one place. Complete control and visibility over the certifications</p>
+        <h4 class="mb-4 font-semibold text-base">ICON CLOUD Easy Access</h4>
+        <p class="text-sm text-gray-500" id="">Access and share your diplomas from any device with an internet connection, making it easy to stay connected and in control of your documents.</p>
       </div>
       <div class="w-full md:w-1/3 p-3 py-20 px-8">
-        <h4 class="mb-4 font-semibold text-base">View certificate</h4>
-        <p class="text-sm text-gray-500" id="">Share your achievements with others and showcase your accomplishments</p>
+        <h4 class="mb-4 font-semibold text-base">ICON Collaboration Streamlined Collaboration</h4>
+        <p class="text-sm text-gray-500" id=""> Easily share and collaborate on your diplomas with others, keeping you organized and in control of your documents.</p>
       </div>
     </div>
   </div>
 </div>
 <!-- FeatureSection -->
 <!-- Benefit section -->
-<div class="">
-  <div class="relative  bg-gray-100 w-full mx-0 my-auto px-20 py-20" id="benefit-section">
+<div class="relative bg-gray-100">
+  <div class="relative w-full mx-0 my-auto px-20 py-20 max-w-screen-xl" id="benefit-section">
     <div class="" id="benefit-image">
       
     </div>
@@ -65,12 +65,34 @@
             <p class="max-w-xs text-base text-gray-500">{{ list.text }}</p>
           </div>
         </div>
+        <!-- Benefit 1 -->
       </div>
+      
     </div>
   </div>
 </div>
 <!-- Benefit section -->
+<!-- How it works section -->
+<div class="px-0 py-36" id="section-step">
+  <div class="w-full max-w-lg my-0 mx-auto px-0 py-20" id="step-center">
+    <div class="max-w-md text-center mt-0 mx-auto mb-20" id="step-head">
+      <h2 class="mb-5 text-5xl font-bold text-center">How it works</h2>
+      <div class="text-center" id="step-info">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
+    </div>
 
+    <div class="flex m-0" id="step-list">
+      <div v-for="list in howitworkslist" key="list.id" class="relative basis-1/4 w-1/4 mx-4 my-0 text-center" id="step-item">
+        <div class="" id="step-icon">
+          <img v-bind:src="list.img" alt=""/>
+        </div>
+        <div class="" id="step-number">{{ list.number }}</div>
+        <div class="" id="step-subtitle">{{ list.subtitle }}</div>
+        <div class="" id="step-text">{{ list.content }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- How it works section -->
 <Footer />
 </div>
 </template>
@@ -83,12 +105,42 @@ export default {
   data() {
     return{
       benefitlist:[
-        {id:1, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
-        {id:2, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
-        {id:3, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
-        {id:4, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
-        {id:5, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Security', text: 'abc'},
+        {id:1, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Secure Storage', text: 'Keep your diplomas safe from loss or theft with our secure NFT-based technology.'},
+        {id:2, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Complete Control', text: 'Easily access and share your academic records on demand, giving you full control over your information.'},
+        {id:3, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Anywhere Access', text: 'With our platform, you can easily access your diplomas from any device with an internet connection, making it simple to share them with employers, universities, and other organizations.'},
+        {id:4, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Fraud Prevention', text: 'Our NFT-based technology verifies the authenticity of your academic credentials, reducing the risk of fraud or forgery.'},
+        {id:5, img : 'https://www.svgrepo.com/show/74601/security.svg', title:'Streamlined Collaboration', text: 'You can easily collaborate with colleagues, mentors, and others in your network by securely sharing your diplomas and other academic records.'},
         
+      ],
+      howitworkslist:[
+        {
+          id:1, 
+          img:'#',
+          number: 'Step 1',
+          subtite: 'Receive Your Diploma',
+          content: 'Once you graduate from your university or educational institution, you will receive a physical copy of your diploma that includes an NFT.',
+        },
+        {
+          id:2, 
+          img:'#',
+          number: 'Step 2',
+          subtite: 'Access and Share',
+          content: 'Your diploma will be securely stored on our platform, and you can easily access and share it with anyone, anywhere in the world.',
+        },
+        {
+          id:3, 
+          img:'#',
+          number: 'Step 3',
+          subtite: 'Verify Authenticity',
+          content: 'Employers, universities, and other organizations can quickly and easily verify the authenticity of your academic credentials by checking the blockchain record associated with your NFT.',
+        },
+        {
+          id:4, 
+          img:'#',
+          number: 'Step 4',
+          subtite: 'Manage Your Records',
+          content: 'With our platform, you can easily manage all of your academic records in one place, streamlining the application process and simplifying your life.',
+        },
       ]
         
     }
