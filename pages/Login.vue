@@ -32,12 +32,13 @@
                 </div>
 
                 <div class="" id="login-col-2">
-                
+
                 </div>
             </div>
         </div>
     </div>
 </template>
+
 export default {
     name: 'LoginPage',
   }
