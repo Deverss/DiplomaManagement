@@ -9,7 +9,7 @@ module.exports = {
     ],
     theme: {
         extend: {
-            fontFamily: { 'poppins': ['Poppins'], },
+            fontFamily: { 'poppins': 'Poppins', },
         },
         plugins: [
             require('tw-elements/dist/plugin')

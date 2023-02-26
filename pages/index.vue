@@ -6,11 +6,11 @@
 <div class="px-6 mx-auto max-w-screen-xl">
   <div class="flex">
     <div class="pt-24 pr-8 w-1/2">
-      <h1 class="text-6xl font-bold font-display">Your Diplomas, Always Accessible</h1>
-      <p class=" pt-8 max-w-md text-base leading-relaxed text-gray-500">Our platform provides a secure and convenient way to store and access all of your university diplomas in one place.</p>
+      <h1 class="text-6xl font-bold font-displa font-poppins">Your Diplomas, Always Accessible</h1>
+      <p class=" pt-8 max-w-md text-base leading-relaxed text-gray-500 font-poppins">Our platform provides a secure and convenient way to store and access all of your university diplomas in one place.</p>
       <div class="flex items-center pt-12 space-x-6">
-        <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-orange-600 rounded-full">Explore</button>
-        <button class="flex justify-start items-center py-4 px-8 font-bold tracking-wide leading-7 rounded-full text-gray-500 border-2">Get started</button>
+        <button class="flex justify-center items-center py-4 px-8 font-bold tracking-wide leading-7 text-white bg-orange-600 rounded-full font-poppins">Explore</button>
+        <button class="flex justify-start items-center py-4 px-8 font-bold tracking-wide leading-7 rounded-full text-gray-500 border-2 font-poppins">Get started</button>
       </div>
     </div>
     <div class="w-1/2">
@@ -23,21 +23,21 @@
 <div class="py-24" id="">
   <div class="w-full max-w-screen-xl mx-auto my-0 px-20 py-0" id="feature-center">
     <div class="max-w-3xl mx-auto my-20 text-center" id="head">
-      <p class="text-xs font-bold text-gray-500" id="">EMPOWERING CERTIFICATES</p>
-      <h2 class="text-5xl leading-relaxed tracking-tight mb-5 font-bold min-w-375">Building a secure for certificates</h2>
+      <p class="text-xs font-bold text-gray-500 font-poppins" id="">EMPOWERING CERTIFICATES</p>
+      <h2 class="text-5xl leading-relaxed tracking-tight mb-5 font-bold min-w-375 font-poppins">Building a secure for certificates</h2>
     </div>
     <div class="flex flex-wrap text-left " id="feature-column">
       <div class="w-full md:w-1/3 p-3 py-20 px-8">
-        <h4 class="mb-4 font-semibold text-base" id="">ICON LOCK Secure Storage</h4>
-        <p class="text-sm text-gray-500" id="">Using NFT technology to store and manage your diplomas securely, giving you complete control over your documents.</p>
+        <h4 class="mb-4 font-semibold text-base font-poppins" id="">ICON LOCK Secure Storage</h4>
+        <p class="text-sm text-gray-500 font-poppins" id="">Using NFT technology to store and manage your diplomas securely, giving you complete control over your documents.</p>
       </div>
       <div class="w-full md:w-1/3 p-3 border-r border-l py-20 px-8">
-        <h4 class="mb-4 font-semibold text-base">ICON CLOUD Easy Access</h4>
-        <p class="text-sm text-gray-500" id="">Access and share your diplomas from any device with an internet connection, making it easy to stay connected and in control of your documents.</p>
+        <h4 class="mb-4 font-semibold text-base font-poppins">ICON CLOUD Easy Access</h4>
+        <p class="text-sm text-gray-500 font-poppins" id="">Access and share your diplomas from any device with an internet connection, making it easy to stay connected and in control of your documents.</p>
       </div>
       <div class="w-full md:w-1/3 p-3 py-20 px-8">
-        <h4 class="mb-4 font-semibold text-base">ICON Collaboration Streamlined Collaboration</h4>
-        <p class="text-sm text-gray-500" id=""> Easily share and collaborate on your diplomas with others, keeping you organized and in control of your documents.</p>
+        <h4 class="mb-4 font-semibold text-base font-poppins">ICON Collaboration Streamlined Collaboration</h4>
+        <p class="text-sm text-gray-500 font-poppins" id=""> Easily share and collaborate on your diplomas with others, keeping you organized and in control of your documents.</p>
       </div>
     </div>
   </div>
@@ -50,8 +50,8 @@
       
     </div>
     <div class="relative z-10 max-w-lg ml-auto p-12 bg-white rounded-3xl shadow-md" id="benefit-wrapper">
-      <h2 class="mb-12 text-5xl font-bold">The Benefits of Out Platform</h2>
-      <p class="mb-12 text-gray-500">By choosing our platform, students can enjoy a number of benefits including</p>
+      <h2 class="mb-12 text-5xl font-bold font-poppins">The Benefits of Out Platform</h2>
+      <p class="mb-12 text-gray-500 font-poppins">By choosing our platform, students can enjoy a number of benefits including</p>
       <div class="mb-2 " id="benefit-list">
 
       <!-- Benefit 1 -->
@@ -61,8 +61,8 @@
             <img v-bind:src=" list.img " alt="" />
           </div>
           <div class="grow" id="benefit-details">
-            <h5 class="mb-2 font-bold">{{ list.title }}</h5>
-            <p class="max-w-xs text-base text-gray-500">{{ list.text }}</p>
+            <h5 class="mb-2 font-bold font-poppins">{{ list.title }}</h5>
+            <p class="max-w-xs text-base text-gray-500 font-poppins">{{ list.text }}</p>
           </div>
         </div>
         <!-- Benefit 1 -->
@@ -76,8 +76,8 @@
 <div class="px-0 py-36" id="section-step">
   <div class="w-full max-w-lg my-0 mx-auto px-0 py-20" id="step-center">
     <div class="max-w-md text-center mt-0 mx-auto mb-20" id="step-head">
-      <h2 class="mb-5 text-5xl font-bold text-center">How it works</h2>
-      <div class="text-center" id="step-info">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
+      <h2 class="mb-5 text-5xl font-bold text-center font-poppins">How it works</h2>
+      <div class="text-center font-poppins" id="step-info">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
     </div>
 
     <div class="flex m-0" id="step-list">
@@ -85,9 +85,9 @@
         <div class="" id="step-icon">
           <img v-bind:src="list.img" alt=""/>
         </div>
-        <div class="" id="step-number">{{ list.number }}</div>
-        <div class="" id="step-subtitle">{{ list.subtitle }}</div>
-        <div class="" id="step-text">{{ list.content }}</div>
+        <div class="font-poppins" id="step-number">{{ list.number }}</div>
+        <div class="font-poppins" id="step-subtitle">{{ list.subtitle }}</div>
+        <div class="font-poppins" id="step-text">{{ list.content }}</div>
       </div>
     </div>
   </div>

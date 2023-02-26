@@ -4,19 +4,19 @@
         <Navbar />
         <div class="" id="how-it-works-center">
             <div class="max-w-lg mb-20" id="how-it-works-header">
-                <div class="text-xs mb-3 font-bold text-gray-500" id="stage-small">EXPLORE THE WEB</div>
-                <h2 class="mb-5 text-5xl font-bold">Protect your certificate</h2>
-                <div class="mb-6 text-2xl text-gray-500">Get started with two free weeks of unlimited yoga, fitness, and meditation classes.</div>
-                <NuxtLink class="border-2 rounded-3xl px-6 py-3 h-12 items-center text-base font-bold leading-none" to="#" id="">Login now</NuxtLink>
+                <div class="text-xs mb-3 font-bold text-gray-500 font-poppins" id="stage-small">EXPLORE THE WEB</div>
+                <h2 class="mb-5 text-5xl font-bold font-poppins">Protect your certificate</h2>
+                <div class="mb-6 text-2xl text-gray-500 font-poppins">Get started with two free weeks of unlimited yoga, fitness, and meditation classes.</div>
+                <NuxtLink class="border-2 rounded-3xl px-6 py-3 h-12 items-center text-base font-bold leading-none font-poppins" to="#" id="">Login now</NuxtLink>
             </div>
             <div class="" id="how-it-works-wrap">
                 <div class="" id="how-it-works-steps">
                     <div v-for="list in howitworks" key="list.id" class="flex items-center mb-8" id="how-it-works-rows">
                         <div class="pt-8 mx-4 my-0 basis-6/12 w-6/12" id="how-it-works-col">
                             <div class="max-w-xs" id="how-it-works-details">
-                                <div class="mb-6 pb-7 text-3xl font-bold border-b-2" id="how-it-works-numbers">{{ list.numbers }}</div>
-                                <div class="mb-4 font-bold" id="how-it-works-category">{{ list.category }}</div>
-                                <div class="text-sm text-gray-500" id="how-it-works-content"> {{ list.content }}</div>
+                                <div class="mb-6 pb-7 text-3xl font-bold border-b-2 font-poppins" id="how-it-works-numbers">{{ list.numbers }}</div>
+                                <div class="mb-4 font-bold font-poppins" id="how-it-works-category">{{ list.category }}</div>
+                                <div class="text-sm text-gray-500 font-poppins" id="how-it-works-content"> {{ list.content }}</div>
                             </div>
                         </div>
                         <div class="pt-8 mx-4 my-0 basis-6/12 w-6/12" id="how-it-works-col">
