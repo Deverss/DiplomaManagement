@@ -1,5 +1,21 @@
 # certmanager
 
+
+NOTE! Please read this first
+Node version 16.18.1
+Build: npm run dev
+localhost:3000
+
+
+
+
+
+
+
+
+
+
+
 ## Build Setup
 
 ```bash
