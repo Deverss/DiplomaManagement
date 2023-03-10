@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="flex items-center" id="Upload-details-foot">
-                            <button class="inline-flex justify-center items-center h-12 px-6 bg-blue-500 rounded-full font-medium text-lg text-white transition duration-200" id="upload-details-button" type="submit">
+                            <button class="inline-flex justify-center items-center h-12 px-6 bg-orange-500 rounded-full font-medium text-lg text-white transition duration-200" id="upload-details-button" type="submit">
                                 <span>Create</span>
                                 <svg class="w-4 h-4 ml-2 inline-flex items-center" viewBox="0 0 16 16" fill="white" stroke="currentColor">
                                     <path d="M10.39 3.765c.464-.375 1.187-.349 1.615.057l3.692 3.5a.91.91 0 0 1 0 1.357l-3.692 3.5c-.428.406-1.151.431-1.615.057s-.493-1.007-.065-1.413L12.247 9H1.143C.512 9 0 8.552 0 8s.512-1 1.143-1h11.104l-1.922-1.822c-.428-.406-.399-1.038.065-1.413z"/>
@@ -104,6 +104,14 @@
                                 <div class="flex items-start mb-12" id="preview-line">
                                     <div class=" text-base font-bold leading-6 text-gray-900" id="preview-title">Mai The Son</div>
                                     <div class="flex-shrink-0 ml-auto rounded border border-green-500 px-2 text-xs leading-6 font-bold uppercase text-green-500" id="preview-class">20GIT</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="py-4 text-gray-700" id="preview-link">
+                                <div class=" mb-12" id="preview-line">
+                                    <div class=" text-base font-medium leading-6 text-gray-900" id="preview-title">Email</div>
+                                    <div class=" text-base  leading-6 text-gray-900" id="preview-title">Grade</div>
                                 </div>
                             </div>
                         </div>

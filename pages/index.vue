@@ -45,10 +45,10 @@
 <!-- FeatureSection -->
 <!-- Benefit section -->
 <div class="relative bg-gray-100">
-  <div class="relative w-full mx-0 my-auto px-20 py-20 max-w-screen-xl" id="benefit-section">
-    <div class="" id="benefit-image">
+  <div class="flex gap-x-1 w-full mx-auto my-0 px-20 py-20 max-w-screen-xl" id="benefit-section">
 
-    </div>
+      <img width="500" src="https://images.unsplash.com/photo-1673881140590-0ce3136c24aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80" alt="" title=""/>
+
     <div class="relative z-10 max-w-lg ml-auto p-12 bg-white rounded-3xl shadow-md" id="benefit-wrapper">
       <h2 class="mb-12 text-5xl font-bold font-poppins">The Benefits of Out Platform</h2>
       <p class="mb-12 text-gray-500 font-poppins">By choosing our platform, students can enjoy a number of benefits including</p>
@@ -98,7 +98,6 @@
 </template>
 
 <script>
-
 
 
 export default {
