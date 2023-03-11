@@ -18,7 +18,7 @@
                                     <div class="mt-1 text-xs text-gray-600 font-poppins" id="upload-detail-note">Drag or choose your file to upload</div>
                                     <div class="relative flex flex-col justify-center items-center h-48 mt-4 overflow-hidden bg-gray-100 rounded-2xl" id="upload-detail-file">
                                         <label for="upload-detail-load">
-                                            <input class="absolute top-0 left-0 opacity-0" id="upload-detail-load" type="file" accept=".pdf"/>
+                                            <input class="absolute top-0 left-0 opacity-0" id="upload-detail-load" type="file" accept=".pdf" @change="onFileSelected"/>
                                             <div class="mb-2" id="upload-detail-icon">
                                             <svg class width="24" height="24" viewBox="0 0 16 16" fill="inherit">
                                                 <path d="M10.229.667c.707 0 1.386.281 1.886.781l1.105 1.105c.5.5.781 1.178.781 1.886v8.229c0 1.473-1.194 2.667-2.667 2.667H4.667C3.194 15.334 2 14.14 2 12.667V3.334C2 1.861 3.194.667 4.667.667h5.562zM9.333 2H4.667c-.693 0-1.263.529-1.327 1.205l-.006.128v9.333c0 .693.529 1.263 1.205 1.327l.128.006h6.667c.693 0 1.263-.529 1.327-1.205l.006-.128V5.334h-1.333a2 2 0 0 1-1.995-1.851l-.005-.149V2zM7.745 6.051c.242-.1.53-.052.727.145h0l2 2c.26.26.26.682 0 .943s-.682.26-.943 0h0l-.862-.862v3.057c0 .368-.298.667-.667.667s-.667-.298-.667-.667h0V8.276l-.862.862c-.26.26-.682.26-.943 0s-.26-.682 0-.943h0l2-2c.064-.064.138-.112.216-.145zm2.922-3.977v1.259c0 .368.298.667.667.667h1.259c-.065-.188-.173-.361-.317-.505l-1.105-1.105c-.144-.144-.317-.251-.505-.317z"></path>
@@ -56,7 +56,7 @@
                                             <div class="" id="upload-detail-field">
                                                 <div class="mb-3 text-xs leading-none font-bold uppercase text-gray-500" id="text-input-label">Grade</div>
                                                 <div>
-                                                    <input class="w-full h-12 text-sm font-medium text-gray-900 py-0 px-3.5 rounded-xl border-2 font-poppins" id="text-input-input" name="Grade" type="text" placeholder="20" required/>
+                                                    <input class="w-full h-12 text-sm font-medium text-gray-900 py-0 px-3.5 rounded-xl border-2 font-poppins" id="text-input-input" name="grade" type="text" placeholder="20" required/>
                                                 </div>
                                             </div>
                                         </div>
@@ -102,7 +102,7 @@
                             </div>
                             <div class="py-4 text-gray-700" id="preview-link">
                                 <div class="flex items-start mb-12" id="preview-line">
-                                    <div class=" text-base font-bold leading-6 text-gray-900" id="preview-title">Mai The Son</div>
+                                    <div class=" text-base font-bold leading-6 text-gray-900" id="preview-fullname">Mai The Son</div>
                                     <div class="flex-shrink-0 ml-auto rounded border border-green-500 px-2 text-xs leading-6 font-bold uppercase text-green-500" id="preview-class">20GIT</div>
                                 </div>
                             </div>
@@ -122,5 +122,5 @@
     </div>
 </template>
 <script>
-  
+    
 </script>
